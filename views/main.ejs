@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <style>
+        #main{
+            margin: auto;
+            width: 100%;
+            height: 400px;
+            display: flex;
+        }
+        #main form{
+            margin: auto;
+        }
+    </style>
+</head>
+  <body>
+      <div id="main">
+
+          <form method="post" action="/getinfo">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Your Id</label>
+              <input
+                
+                name="username"
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                style="width: 800px; margin-bottom: 20px;"
+              />
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+      </div>
+    <script src="/js/bootstrap.js"></script>
+  </body>
+</html>
